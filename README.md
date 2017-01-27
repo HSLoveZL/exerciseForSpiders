@@ -11,4 +11,8 @@
         desc = scrapy.Field()   
 ```
 ##默认的Scrapy项目结构   
-   scrapy.cfg存放的目录被认为是*项目的根目录*。该文件中包含了Python模快名的字段定义了项目的设置。
+   scrapy.cfg存放的目录被认为是*项目的根目录*。该文件中包含了Python模快名的字段定义了项目的设置。   
+##Scrapy的一些命令   
+   创建项目：scrapy startproject myproject
+   控制项目：scrapy genspider mydomain mydomain.com
+   查看所有可用的命令：scrapy -h   
